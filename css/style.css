@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+/*nav part css start*/
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.divClear{
+    clear: both;
+}
+nav{
+    background-color: teal;
+}
+.container{
+  
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 12px 20px;
+}
+
+.menu ul li a{
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    display: block;
+}
+/*nav part css end*/
+
+/*baner part css start*/
+
+.banner{
+    background: url(../image/Cover-Photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.ban_overlay{
+    padding: 150px 0;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.ban_con{
+    color: white;
+}
+.ban_con h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 13px ;
+}
+.ban_con h4{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+    color: chocolate;
+}
+.ban_con a{
+    padding: 12px 30px;
+    color: white;
+    background-color: rgb(129, 165, 165);
+    border-radius: 20px;
+    
+}
+
+/*baner part css end*/
+
+/*about part css start*/
+
+.about_head h2{
+text-align: center;
+padding: 10px 0;
+background-color: aquamarine;
+border-radius: 8px;
+font-size: 40px;
+color: indigo;
+margin-top: 40px;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+.about_img{
+    width: 47%;
+    float: left;
+    margin-right: 20px;
+}
+.about_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about_con{
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+}
+.about_con h2{
+
+    padding-bottom: 20px;
+}
+.about_con p{
+    line-height: 25px;
+}
+/*about part css end*/
+
+.container2{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 20px ;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.about_head a{
+    color: rgb(49, 160, 15);
+    text-decoration: none;
+   margin: 15px;
+}
+.about_head p{
+    color: rgb(175, 30, 30);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+   
+}
